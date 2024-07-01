@@ -33,6 +33,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Sushi/1.0.0": {
         "dependencies": {
+          "AutoMapper": "11.0.0",
           "MailKit": "4.6.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "5.0.17",
           "Microsoft.AspNetCore.Mvc": "2.2.0",
@@ -41,6 +42,7 @@
           "Microsoft.EntityFrameworkCore.Tools": "5.0.17",
           "Microsoft.Extensions.Identity.Core": "5.0.17",
           "Microsoft.Extensions.Identity.Stores": "5.0.17",
+          "Microsoft.jQuery.Unobtrusive.Ajax": "3.1.1",
           "Npgsql": "5.0.18",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "5.0.10",
           "bootstrap": "5.3.3",
@@ -326,6 +328,20 @@
           "Sushi.dll": {}
         }
       },
+      "AutoMapper/11.0.0": {
+        "dependencies": {
+          "Microsoft.CSharp": "4.7.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/AutoMapper.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.0.0.0"
+          }
+        },
+        "compile": {
+          "lib/netstandard2.1/AutoMapper.dll": {}
+        }
+      },
       "bootstrap/5.3.3": {},
       "BouncyCastle.Cryptography/2.3.1": {
         "runtime": {
@@ -346,6 +362,7 @@
           }
         }
       },
+      "jQuery/1.8.0": {},
       "MailKit/4.6.0": {
         "dependencies": {
           "MimeKit": "4.6.0"
@@ -1197,6 +1214,11 @@
         },
         "compile": {
           "lib/netstandard2.0/Microsoft.IdentityModel.Tokens.dll": {}
+        }
+      },
+      "Microsoft.jQuery.Unobtrusive.Ajax/3.1.1": {
+        "dependencies": {
+          "jQuery": "1.8.0"
         }
       },
       "Microsoft.Net.Http.Headers/2.2.0": {
@@ -4024,6 +4046,13 @@
       "serviceable": false,
       "sha512": ""
     },
+    "AutoMapper/11.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-+596AnKykYCk9RxXCEF4GYuapSebQtFVvIA1oVG1rrRkCLAC7AkWehJ0brCfYUbdDW3v1H/p0W3hob7JoXGjMw==",
+      "path": "automapper/11.0.0",
+      "hashPath": "automapper.11.0.0.nupkg.sha512"
+    },
     "bootstrap/5.3.3": {
       "type": "package",
       "serviceable": true,
@@ -4044,6 +4073,13 @@
       "sha512": "sha512-OiKusGL20vby4uDEswj2IgkdchC1yQ6rwbIkZDVBPIR6al2b7n3pC91elBul9q33KaBgRKhbZH3+2Ur4fnWx2A==",
       "path": "humanizer.core/2.8.26",
       "hashPath": "humanizer.core.2.8.26.nupkg.sha512"
+    },
+    "jQuery/1.8.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-laDFQRJrIRHT0Z0GVYklMt3bE0iu0MZFJwHwg21kt3SHb7Bj8TdNiM3K+ZdK1DzB8ZxKy8z7NkJvwMas+dmHBw==",
+      "path": "jquery/1.8.0",
+      "hashPath": "jquery.1.8.0.nupkg.sha512"
     },
     "MailKit/4.6.0": {
       "type": "package",
@@ -4639,6 +4675,13 @@
       "sha512": "sha512-C3OqR3QfBQ7wcC7yAsdMQqay87OsV6yWPYG/Ai3n7dvmWIGkouQhXoVxRP0xz3cAFL4hxZBXyw4aLTC421PaMg==",
       "path": "microsoft.identitymodel.tokens/5.6.0",
       "hashPath": "microsoft.identitymodel.tokens.5.6.0.nupkg.sha512"
+    },
+    "Microsoft.jQuery.Unobtrusive.Ajax/3.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-5g3KI3bwt5dnD+gvKLiM7C8cHjEbmRkfVqiKzamu2rRImrL4TmAR6XggEj1PqI1KK92eKl/R7dTc7lmZ9wGDJA==",
+      "path": "microsoft.jquery.unobtrusive.ajax/3.1.1",
+      "hashPath": "microsoft.jquery.unobtrusive.ajax.3.1.1.nupkg.sha512"
     },
     "Microsoft.Net.Http.Headers/2.2.0": {
       "type": "package",

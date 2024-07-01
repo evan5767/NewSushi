@@ -17,7 +17,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyProductAttribute("Sushi")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1efa94d60df1e005d91f0c6b4d1006ec0310fd5f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+cf44223a078f4891f269e4add6e1bc1ed2dc50fc")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Sushi.Views")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 

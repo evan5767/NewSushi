@@ -28,7 +28,6 @@ C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Sushi.genruntimeconfi
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\ref\Sushi.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Sushi.csproj.Up2Date
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\_ViewImports.cshtml.g.cs
-C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Home\List.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\Microsoft.AspNetCore.JsonPatch.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\Microsoft.AspNetCore.Mvc.Razor.Extensions.dll
@@ -82,7 +81,6 @@ C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Order\Com
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Order\Checkout.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\ShopCart\Index.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Shared\Contacts.cshtml.g.cs
-C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Shared\AddNewFood.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Sushi.sourcelink.json
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.Internal.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
@@ -99,8 +97,6 @@ C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Roles\Cre
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Roles\Edit.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Roles\Index.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Roles\UserList.cshtml.g.cs
-C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Shared\Edit.cshtml.g.cs
-C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\ViewOrder\OrderDetails.cshtml.g.cs
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\BouncyCastle.Cryptography.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\MailKit.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\MimeKit.dll
@@ -109,3 +105,9 @@ C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\System.Runtime.Compil
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\System.Security.Cryptography.Pkcs.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\System.Text.Encoding.CodePages.dll
 C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Order\Mail.cshtml.g.cs
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\bin\Debug\net5.0\AutoMapper.dll
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Food\List.cshtml.g.cs
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Food\Edit.cshtml.g.cs
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Food\Create.cshtml.g.cs
+C:\Users\Alex Ei\source\repos\Sushi\Sushi\obj\Debug\net5.0\Razor\Views\Order\ShowOrder.cshtml.g.cs

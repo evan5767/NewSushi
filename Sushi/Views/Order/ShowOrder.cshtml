@@ -1,0 +1,37 @@
+﻿@using Sushi.ViewModels
+@model IEnumerable<ShowOrderViewModel>
+
+<h2>Текущие заказы</h2>
+
+@foreach (var order in Model)
+{
+    <div>
+        <h4>Заказ: @order.OrderId</h4>
+        <p><b>Время:</b>: @order.OrderTime</p>
+        <p><b>Клиент:</b> @order.Name</p>
+        <p><b>Адрес:</b>: @order.Adress</p>
+        <table class="table">
+            <h5>Детали:</h5>
+            <tbody>
+                @foreach (var item in order.OrderDetails)
+                {
+                    <tr>
+                        <td>@item.FoodName</td>
+                        <td>@item.Price.ToString("c")</td>
+                    </tr>
+                }
+                @{
+                    uint sumProd = 0;
+                }
+                @foreach (var sum in order.OrderDetails)
+                {
+                    sumProd += sum.Price;
+                }
+            </tbody>
+        </table>
+        <p><b>Итого:</b> @sumProd.ToString("c")</p>
+    </div>
+    <a class="btn btn-primary mr-2" asp-controller="Order" asp-action="Delete" asp-route-id="@order.OrderId">Выполнен</a>
+    
+    <hr />
+}
